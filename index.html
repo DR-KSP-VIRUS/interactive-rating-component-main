@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+
+  <main>
+    <!-- Rating state start -->
+    <div class="rating-card">
+      <figure class="rating-image">
+        <img src="./images/icon-star.svg" alt="">
+      </figure>
+      <div class="rating-content">
+        <div class="rating-header">
+          <h1 class="title">How did we do?</h1>
+        </div>
+        <div class="rating-text">
+          <p class="text-gray">
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </p>
+        </div>
+        <div class="rating-form">
+          <form>
+            <div class="fieldset">
+              <div class="rating">
+                <input type="radio" name="first" id="first" value="1">
+                <label for="first">1</label>
+              </div>
+              <div class="rating">
+                <input type="radio" name="second" id="second" value="2">
+                <label for="second">2</label>
+              </div>
+              <div class="rating">
+                <input type="radio" name="third" id="third" value="3">
+                <label for="third">3</label>
+              </div>
+              <div class="rating">
+                <input type="radio" name="fourth" id="fourth" value="4">
+                <label for="fourth">4</label>
+              </div>
+              <div class="rating">
+                <input type="radio" name="fiveth" id="fiveth" value="5">
+                <label for="fiveth">5</label>
+              </div>
+            </div>
+            <button id="submit" type="button" class="btn-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="result-modal" class="rating-result">
+      <span id="close-btn">&times;</span>
+      <figure class="result-image">
+        <img src="./images/illustration-thank-you.svg" alt="loading">
+        <!-- make it dynamic -->
+        <p class="result">You selected <span id="score">4</span> out of 5</p>
+      </figure>
+      <div class="result-content">
+        <h2>Thank you!</h2>
+        <p class="text-gray">
+          We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <!-- Thank you for rating us -->
+  </main>
+  
+
+  <!-- Thank you state end -->
+  <script src="./static/js/main.js"></script>
+</body>
+</html>
