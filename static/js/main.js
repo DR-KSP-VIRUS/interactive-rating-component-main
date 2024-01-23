@@ -30,3 +30,11 @@ closeBtn.addEventListener("click",() => {
     overlay.classList.remove('overlay');
     resultModal.style.display = "none";
 })
+
+
+window.onclick = function(event){
+    if(event.target === overlay){
+        overlay.classList.remove('overlay');
+        resultModal.style.display = "none";
+    }
+}

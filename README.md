@@ -15,13 +15,13 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![Mobile solution of the challenge](./design/mobile-solution.jpeg)
-![Desktop solution of the challenge](./design/desktop-solution.jpeg)
+[Mobile solution of the challenge](./design/mobile-solution.jpeg)
+[Desktop solution of the challenge](./design/desktop-solution.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github solution here ](https://github.com/DR-KSP-VIRUS/interactive-rating-component-main)
+- Live Site URL: [Live on vercel](https://interactive-rating-component-main-three-nu.vercel.app/)
 
 ## My process
 
@@ -38,5 +38,5 @@ I am very excited about the dynamic content
 I was able to add using `Js`. I have learnt alot about `DOM` content  manipulation offered by `Js`
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://interactive-rating-component-main-three-nu.vercel.app/)
 - Frontend Mentor - [@DR-KSP-VIRUS](https://www.frontendmentor.io/profile/yourusername)
